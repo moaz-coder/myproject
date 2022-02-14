@@ -1,46 +1,38 @@
-.image {
-    background-image: url("../image/Amr\ ibn\ Aas.jpg");
+
+body {
+ 
+    background-image: linear-gradient(to right, rgb(64, 143, 207) , rgb(124, 12, 144));
+  }
+    .Login{
+      background-color:white;
+    width: 350px;
+    border: 15px solid white;
+    padding: 30px;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Mediu', 'Arial Narrow', Arial, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .buttom{
+        background-image: linear-gradient(to right, rgb(64, 143, 207) , rgb(124, 12, 144));   
+       color: rgb(209, 196, 196);
+        text-align: center;
+        font-size: large;
+        padding: 20px 160px ;
     
-    background-color: rgba(0,0 ,0 ,0.8 );
-    height: 500px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-  .text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
-  .button {
-    background-color: #cdba13;
-    border-radius: 25px;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-
-
-  .button1 {
-    background-color: #f7fbf8;
-    border: 1px solid;
-    border-radius: 25px;
-    color: #d7c81a;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-  
+    }
+    .fortext{
+      text-decoration: none;
+      color: #1f82a3;
+    }
+    .sign{
+      text-decoration: none;
+      color: #1f82a3;
+    }
+    .form , .last{
+      text-align: center;
+    }
+    input {
+        width: 100%;
+        height: 100%;
+        padding: 20px 10px;
+    }
+    
