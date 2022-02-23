@@ -1,468 +1,212 @@
-
-
-                    *{
-                      margin: 0;
-                      padding: 0;
-                  }
-                  body{
-                      height: auto;
-                  }
-                  
-                  .first{
-                      background-image: url(../WhatsApp\ Image\ 2022-02-17\ at\ 12.26.24\ AM.jpeg);
-                      background-repeat: no-repeat;
-                      background-position: center;
-                      background-size: cover;
-                      position: relative;
-                      display: block;
-                      height: 510px;
-                      width: 100%;
-                  }
-                  
-                  .first .background {
-                      background-color: rgba(36, 36, 36, .75);
-                      height: 100%
-                  }
-                  
-                  .first .lists h3{
-                      float: left;
-                      font-size: 30px;
-                      font-weight: 800;
-                      padding: 30px 30px;
-                      color: #f2f2f2;
-                      font-family: monospace;
-                      cursor: pointer;
-                  }
-                  .first .lists ul{
-                      float: right;
-                      list-style: none;
-                      padding-right: 60px;
-                  }
-                  .first .lists ul li{
-                          display: inline-block;
-                          color: #f2f2f2;
-                          font-size: 17px;
-                          padding: 35px 15px;
-                          font-weight: 600;
-                          font-family: monospace;
-                          letter-spacing: 2px;
-                          cursor: pointer;
-                  }
-                  .first .lists ul li:hover{
-                      color: #e96c77;
-                      transition: all;
-                  }
-                  
-                  .first .lists h3:hover{
-                      color: #e96c77;
-                      transition: all;
-                  }
-                  
-                  .first .titles{
-                      height: 150px;
-                      width: 100%;
-                      padding-top: 180px;
-                      text-align: center
-                  }
-                  .first .titles h2{
-                      color: #f2f2f2;
-                      font-size: 35px;    
-                      font-family: sans-serif;
-                      font-weight: 800;
-                      letter-spacing: 2px;
-                  }
-                  
-                  .first .titles p{
-                      padding-top:  20px;
-                      font-size: 26.5px;
-                      font-family: sans-serif;
-                      font-weight: 650;
-                      letter-spacing: 1.5px;
-                      color: #e96c77;
-                      padding-bottom: 45px;
-                  }
-                  .first .titles button{
-                      padding: 10px 30px;
-                      background-color: #e13745;
-                      color: #fff;
-                      font-weight: 700;
-                      font-family: sans-serif;
-                      outline: 0;
-                      border: 1px solid red;
-                      border-radius: 25px;
-                      cursor: pointer
-                  }
-                  .first .titles button:hover{
-                      background-color: #e96c77;
-                      transform: scale(1.2, 1.2)
-                  }
-                  /* end div1 */
-                  
-                  .two{
-                      width: 100%;
-                      color: #f2f2f2;
-                      height: 680px;
-                      text-align: center;
-                  }
-                  
-                  .two .title2 h3{
-                      padding-top: 70px;
-                      padding-bottom: 10px;
-                      font-size: 25px;
-                      font-weight: 800;
-                      font-family: sans-serif;
-                      color: #555555
-                  }
-                  
-                  .two .title2 p{
-                      padding-top: 40px;
-                      font-size: 20px;
-                      font-weight: 800;
-                      font-family: cursive;
-                      color: #808080;
-                      padding-bottom: 60px;
-                  }
-                  
-
-                  .two .Squre .one{
-                    
-                      border: 1px solid #efefef;
-                      width: 363px;
-                      float: left;
-                      margin: 20px;
-                      height: 270px;
-                      background-color: #fff;
-                      box-shadow: 0 3px 0 0 rgb(0 0 0 / 10%);
-                  }
-                  
-                  .two .Squre .twoo{
-                      border: 1px solid #efefef;
-                      width: 400px;
-                      float: left;
-                      margin: 20px;
-                      height: 270px;
-                      background-color: #fff;
-                      box-shadow: 0 3px 0 0 rgb(0 ,0 ,0 , 0.1);
-                  }
-                  
-                  /* .two .Squre .three{
-                    
-                      border: 1px solid #efefef;
-                      padding: 20px 30px;
-                      width: 391px;
-                      float: left;
-                      margin: -198px;
-                      height: 270px;
-                      background-color: #fff;
-                      box-shadow: 0 3px 0 0 rgb(0 0 0 / 10%);
-                  } */
-                  
-                  .two .Squre .one i{
-                      color: #e13745;
-                      padding-top: 20px;
-                      font-size: 80px;
-                  }
-                  
-                  .two .Squre .one h2{
-                      color: #555555;
-                      font-weight: 900px;
-                      padding-top: 25px;
-                      letter-spacing: 1.5px;
-                  }
-                  
-                  .two .Squre .one h4{
-                      padding: 20px 30px;
-                      color: #808080;
-                  }
-                  
-                  .two .Squre .twoo i{
-                      color: #e13745;
-                      padding-top: 20px;
-                      font-size: 80px;
-                  }
-                  
-                  .two .Squre .twoo h2{
-                      color: #555555;
-                      font-weight: 900px;
-                      padding-top: 25px;
-                      letter-spacing: 1.5px;
-                  }
-                  
-                  .two .Squre .twoo h4{
-                      padding: 20px 30px;
-                      color: #808080;
-                  }
-                  
-                  
-                  .two .Squre .three i{
-                      color: #e13745;
-                      padding-top: 20px;
-                      font-size: 80px;
-                  }
-                  
-                  .two .Squre .three h2{
-                      color: #555555;
-                      font-weight: 900px;
-                      padding-top: 25px;
-                      letter-spacing: 1.5px;
-                  }
-                  
-                  .two .Squre .three h4{
-                      padding: 20px 30px;
-                      color: #808080;
-                  }
-                  
-                  .two .Squre .one:hover{
-                      background-color: #f2f2f2;
-                      transform: scale(1.2,1.2);
-                  }
-                  
-                  .two .Squre .twoo:hover{
-                      background-color: #f2f2f2;
-                      transform: scale(1.2,1.2);
-                  }
-                  
-                  .two .Squre .three:hover{
-                      background-color: #f2f2f2;
-                      transform: scale(1.2,1.2);
-                  }
-                  
-                  .three{
-                      width: 100%;
-                      color: #f2f2f2;
-                      height: 1080px;
-                      text-align: center;
-                      background-color: #e96c77;
-                  }
-                  
-                  .three .title3 h3{
-                      padding-top: 70px;
-                      padding-bottom: 10px;
-                      font-size: 25px;
-                      font-weight: 800;
-                      font-family: sans-serif;
-                      width: 100%;
-                  }
-                  
-                  .three .title3 p{
-                      padding: 40px 150px;
-                      font-size: 20px;
-                      font-weight: 800;
-                      font-family: cursive;
-                      margin-bottom: 20px;
-                  }
-                  
-                  .Squre3{
-                      width: 400px;
-                      border: 1px solid #EC828C;
-                      padding: 20px 20px;
-                      margin-bottom: 40px;
-                      background-color: #EC828C;
-                      height: 300px;
-                      display: inline-block;
-                      margin-right: 40px;
-                  }
-                  .Squre3 .one {
-                      height: 80px;
-                      width: 80px;
-                      background-color: #5b5c6b;
-                      margin-left: 40%;
-                      border-radius: 50px;
-                  }
-                  .Squre3 .one i{
-                      padding-top: 25px;
-                      font-size: 30px;
-                      color: #fff;
-                  }
-                  
-                  .Squre3  h2{
-                      color: #fff;
-                      font-weight: 900px;
-                      padding-top: 25px;
-                      letter-spacing: 1.5px;
-                      font-family: monospace
-                  
-                  }
-                  
-                  .Squre3  h4{
-                      padding: 20px 30px;
-                      color:#e9f7fc;
-                      font-family: cursive;
-                  }
-                  .Squre3:hover{
-                      transform: scale(1.1,1.1);
-                  }
-                  
-                  .four{
-                      width: 100%;
-                      background-color: white;
-                      height: 600px;
-                      text-align: center;
-                  }
-                  
-                  .four .title4 h3{
-                      padding-top: 45px;
-                      padding-bottom: 10px;
-                      font-size: 25px;
-                      font-weight: 800;
-                      font-family: sans-serif;
-                      color: #555555
-                  }
-                  .four .img .one img{
-                      width: 400px;
-                      height: 202px;
-                      
-                  }
-                  .four .one{
-                      padding-top: 40px;
-                      margin-right: 40px;
-                      width: 400px;
-                      height: 270px;
-                      display: inline-block;
-                  }
-                  .four .img .one h2{
-                      color: #555555;
-                      font-weight: 700px;
-                      padding-top: 25px;
-                      letter-spacing: 1.5px;
-                  }
-                  .fourth .img .one h4{
-                      padding: 20px 30px;
-                      color: #808080;
-                      font-family: monospace;
-                      padding-bottom: 35px;
-                  }
-                  .four .img .one button{   
-                      padding: 10px 35px;
-                      border: 1px solid #cccccc;
-                      background-color: #fff;
-                      cursor: pointer;
-                      font-weight: 900;
-                      color: #555555;
-                      margin-top: 20px;
-                  }
-                  
-                  .four .img .one button:hover{
-                      background-color: rgb(221, 221, 221);
-                  }
-
-                  
-                  .last{
-                      text-align: center;
-                      background-color: whitesmoke;
-                      width: 100%;
-                      height: 710px;
-                  }
-                  
-                  .last .title5 h3{
-                    
-                      padding-top: 331px;
-                      padding-bottom: 10px;
-                      font-size: 25px;
-                      font-weight: 800;
-                      font-family: sans-serif;
-                      color: #555555;
-                  }
-                  
-                  .last .title5 p{
-                      padding: 40px 150px;
-                      color: #e96c77;
-                      font-size: 20px;
-                      font-weight: 800;
-                      font-family: cursive;
-                      margin-bottom: 20px;
-                  }
-                  
-                  .last .contact{
-                      height: 380px;
-                      width: 700px;
-                      background-color: #fff;
-                      margin: 20px auto;
-                  }
-                  .last .contact .message{
-                      width: 55%;
-                      float: left;
-                      height: 100%;
-                      padding-top: 30px;
-                  }
-                      
-                  .last .contact .message .input{
-                      width: 70%;
-                      display: block;
-                      margin-left: 40px;
-                      padding: 10px 20px;
-                  }
-                  .last .contact .message textarea{
-                    width: 70%;
-                    display: block;
-                    margin-left: 40px;
-                    padding: 10px 20px;
-                  }
-                  
-                  .last .contact .message button{
-                      margin-top: 20px;
-                      padding: 10px 20px;
-                      background-color: #e13745;
-                      font-family: monospace;
-                      color: #fff;
-                      float: left;
-                      cursor: pointer;
-                      border: 0px;
-                      margin-left: 40px;
-                  }
-                  .last .contact .message button:hover{
-                      background-color: #EC828C;
-                  }
-                  
-                  .last .contact .message .butt:hover{
-                      background-color:#808080;
-                      transform: scale(1.2,1.2);
-                  }
-                  
-                  .last .contact .message .butt{
-                      margin-top: 20px;
-                      padding: 10px 20px;
-                      background-color: #5b5c6b;
-                      font-family: monospace;
-                      outline: 0;
-                      color: #fff;
-                      border: 1px solid #cccccc;
-                      cursor: pointer;
-                      float: left;
-                      border: 0px;
-                      margin-left: 25px;
-                  }
-                  .last .contact .info{
-                      padding-top: 12px;
-                      padding-bottom: 16px;
-                      margin-bottom: 16px;
-                      font-size: 16px;
-                      font-family: sans-serif;
-                      color: #808080;
-                  }
-                  
-                 
-
-
-
-  
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'tajawal', sans-serif;
     
+}
+.hh4{
+    font-family: 'Lalezar', cursive;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    max-width: 1366px;
+    height: 10vh;
+    margin: 0 auto;
+    padding: 0 5rem;
 
+}
+nav .logo{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+}
+nav .logo i{
+    padding-left: 0.75rem;
+    color: rgb(61, 61, 219);
+}
+nav .navitems{
+    display: flex;
+    list-style-type: none;
+}
+nav .navitems .navitem{
+    padding:  0 1rem;
+}
+nav .link{
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: rgb(6, 53, 53);
+}
+nav .link :hover{
+    color:rgb(61, 61, 219) ;
+}
+/* <end nav 1> */
+section.hero{
+    padding: 2rem 0;
+    background-color: #f8f7fc;
 
+}
 
+.herosection{
+    max-width: 1366px;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+.herosection .contact{
+    display: flex;
+    flex-direction: column;
+}
+.herosection h4{
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.herosection .contact h1{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
 
+}
+.herosection p{
+    color: rgba(29, 29, 29);
+    font-size: 1.4rem;
 
+}
+.herosection p span
+{
+    color: #6e0aef;
+}
+.btn{
+    width: 10rem;
+    margin-top: 3rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    background-color: #6e0aef;
 
+}
+.btn:hover{
+    background-color: #7d25f0;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+/* <end section 1> */
+section.features{
+    padding: 2rem 0;
+    background-color: #f8f7fc;
 
+}
+section.features .featuressection{
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.featuressection h4{
+    color: #6e0aef;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+.featuressection .qulities{
+    display: flex;
+    justify-content: space-between;
+}
+.featuressection .qulities .qulitie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 2rem ;
+    max-width: 17rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.featuressection .qulities .qulitie:hover{
+    border: 2px solid #6e0aef;
+}
+.qulities .qulitie i{
+    font-size: 2rem;
+    color: #6e0aef;
+    margin-bottom: 1rem;
 
-
-
-
-
-
-
-
-
+}
+.qulities .qulitie h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.qulities .qulitie p{
+    font-size: 1.1rem;
+    text-align: center;
+    color: rgba(69, 71, 71, 0.609);
+}
+/* <end section 3> */
+.newwestphone
+{
+    padding: 5rem;
+}
+.newwestphone .phonesection{
+    max-width: 1366px;
+    margin:  0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.phonesection h4{
+color: #6e0aef;
+font-size: 1.5rem;
+margin-bottom: 2rem;
+}
+.phonesection .phones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: flex-start;
+}
+.phones .phone{
+    margin:  2rem 0;
+    max-width:  300px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phone img{
+    margin-bottom: 1rem;
+}
+.phonesection button{
+    width: 16rem;
+    margin-bottom: 1rem;
+    align-self: center;
+}    
+/* >end section4 < */
+footer{
+    background-color: #f8f7fc;
+    height: 15vh;
+    margin-top: 5rem;
+    padding: 2rem 0;
+}
+.footersecction{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding:  0 5rem;
+    max-width: 1366px;
+    align-items: center;
+    
+}
 
 
 
