@@ -1,216 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    font-family: 'tajawal', sans-serif;
-    
-}
-.hh4{
-    font-family: 'Lalezar', cursive;
-}
-nav{
+    background-color: rgb(226, 235, 235);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center ;
-    max-width: 1366px;
-    height: 10vh;
     margin: 0 auto;
-    padding: 0 5rem;
-
+    padding: 0;
 }
-nav .logo{
+.bigbox{
+    padding: 10;
     display: flex;
-    font-size: 2rem;
-    align-items: center;
+    justify-content: center;
+    align-items: center ;
+    margin-top: 130px;
 }
-nav .logo i{
-    padding-left: 0.75rem;
-    color: rgb(61, 61, 219);
+.box1 {
+        width: 320px;
+        background-color: hsl(31, 77%, 52%);
+        margin: -10px;
+        padding: 40px;
+        font-size: 30px;
+      
+        border-radius: 10px;
+        
+      
 }
-nav .navitems{
-    display: flex;
-    list-style-type: none;
+.box2 {
+        width: 320px;
+        background-color: hsl(184, 100%, 22%);
+        margin: -10px;
+        padding: 40px;
+        font-size: 30px;
+      
+      
 }
-nav .navitems .navitem{
-    padding:  0 1rem;
+.box3 {
+        width: 320px;
+        background-color: hsl(179, 100%, 13%);
+        margin: -10px;
+        padding: 40px;
+        font-size: 30px;
+       
+        border-radius: 10px;
+      
 }
-nav .link{
-    text-decoration: none;
-    font-size: 1.4rem;
-    color: rgb(6, 53, 53);
+.h2{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 700;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    margin: 10px;
 }
-nav .link :hover{
-    color:rgb(61, 61, 219) ;
-}
-/* <end nav 1> */
-section.hero{
-    padding: 2rem 0;
-    background-color: #f8f7fc;
-
-}
-
-.herosection{
-    max-width: 1366px;
-    height: 90vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    padding: 0 5rem;
-}
-.herosection .contact{
-    display: flex;
-    flex-direction: column;
-}
-.herosection h4{
-    color: #6e0aef;
-    font-size: 1.6rem;
-    margin-bottom: 1rem;
-}
-.herosection .contact h1{
-    font-size: 2.6rem;
-    margin-bottom: 1rem;
-
-}
-.herosection p{
-    color: rgba(29, 29, 29);
-    font-size: 1.4rem;
-
-}
-.herosection p span
-{
-    color: #6e0aef;
+.p{
+    font-size: 20px;
+    color:  hsla(0, 0%, 100%, 0.75);
+    padding: 10px;
+    margin: 10px;
 }
 .btn{
-    width: 10rem;
+    width: 7rem;
     margin-top: 3rem;
-    border-radius: 0.5rem;
+    border-radius: 0.8rem;
     outline: none;
     border: none;
     padding: 0.75rem 1.5rem;
-    background-color: #6e0aef;
-
+   
 }
-.btn:hover{
-    background-color: #7d25f0;
-    cursor: pointer;
-}
-.btn a{
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 1.4rem;
-}
-/* <end section 1> */
-section.features{
-    padding: 2rem 0;
-    background-color: #f8f7fc;
-
-}
-section.features .featuressection{
-    max-width: 1366px;
-    margin: 0 auto;
-    padding: 0 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.featuressection h4{
-    color: #6e0aef;
-    font-size: 1.6rem;
-    margin-bottom: 2rem;
-}
-.featuressection .qulities{
-    display: flex;
-    justify-content: space-between;
-}
-.featuressection .qulities .qulitie{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #ffffff;
-    padding: 2rem ;
-    max-width: 17rem;
-    border-radius: 1rem;
-    margin: 1rem;
-}
-.featuressection .qulities .qulitie:hover{
-    border: 2px solid #6e0aef;
-}
-.qulities .qulitie i{
-    font-size: 2rem;
-    color: #6e0aef;
-    margin-bottom: 1rem;
-
-}
-.qulities .qulitie h3{
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-}
-.qulities .qulitie p{
-    font-size: 1.1rem;
-    text-align: center;
-    color: rgba(69, 71, 71, 0.609);
-}
-/* <end section 3> */
-.newwestphone
-{
-    padding: 5rem;
-}
-.newwestphone .phonesection{
-    max-width: 1366px;
-    margin:  0 auto;
-    padding: 0 5rem;
-    display: flex;
-    flex-direction: column;
-}
-.phonesection h4{
-color: #6e0aef;
-font-size: 1.5rem;
-margin-bottom: 2rem;
-}
-.phonesection .phones{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    justify-content: flex-start;
-}
-.phones .phone{
-    margin:  2rem 0;
-    max-width:  300px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.phone img{
-    margin-bottom: 1rem;
-}
-.phonesection button{
-    width: 16rem;
-    margin-bottom: 1rem;
-    align-self: center;
-}    
-/* >end section4 < */
-footer{
-    background-color: #f8f7fc;
-    height: 15vh;
-    margin-top: 5rem;
-    padding: 2rem 0;
-}
-.footersecction{
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto;
-    padding:  0 5rem;
-    max-width: 1366px;
-    align-items: center;
-    
-}
-
-
-
-
-
-
-
