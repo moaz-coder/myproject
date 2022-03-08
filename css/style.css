@@ -1,0 +1,476 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: auto;
+}
+.header{
+    background-image: url("../image/pink-bright-line-light-wallpaper-preview.jpg");
+   border-radius: (10 0 0 10);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
+    height: 510px;
+    width: 100%;
+    border-radius: 0px 40px  0px  40px; 
+}
+.header .nav , .header .tt{
+    display: flex;
+}
+.header .nav .right .tt h3{
+    float: left;
+    font-size: 30px;
+    font-weight: 800;
+    margin: -3px;
+    padding: 30px 100px;
+    color: #f2f2f2;
+    font-family: monospace;
+    cursor: pointer;
+}
+.header .nav .right .tt ul{
+    float: left;
+    list-style: none;
+    padding-left: 0px;
+    margin: 7px;
+}
+.header .nav .right .tt ul li{
+    display: inline-block;
+    color: #f3f3f3;
+    font-size: 17px;
+    padding: 35px 15px;
+    font-weight: 600;
+    font-family: monospace;
+    letter-spacing: 2px;
+    cursor: pointer
+}
+.header .nav .right .tt ul li a{
+    color: #fff;
+    text-decoration: unset;
+}
+.header .left{
+    margin: auto;
+}
+.header .left a{
+    float: right;
+    padding: 15px 15px;
+    color: #fff;
+    font-weight: 700;
+    font-family: sans-serif;
+    outline: 0;
+    text-decoration: unset;
+    cursor: pointer; 
+    
+    
+    
+}
+.header .left a :hover{
+    border-radius: 25px;
+    background-color: #e96c77;
+    transform: scale(1.2, 1.2)
+}
+.header .sec{
+    height: 150px;
+    width: 100%;
+    padding-top: 140px;
+    text-align: center
+}
+.header .sec h2{
+    color: #f2f2f2;
+    font-size: 50px;    
+    font-family: sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.header .sec p{
+    padding-top:  20px;
+    font-size: 20.5px;
+    font-family: sans-serif;
+    font-weight: 10;
+    letter-spacing: 1.5px;
+    color: #f0e0e2;
+    padding-bottom: 45px;
+}
+.header .sec button{
+    padding: 10px 30px;
+    background-color: rgb(136, 6, 60);
+    color: #fff;
+    font-weight: 700;
+    font-family: sans-serif;
+    outline: 0;
+    border: 1px solid rgb(36, 8, 8);
+    border-radius: 25px;
+    cursor: pointer
+}
+.header .sec button:hover{
+    background-color: #e96c77;
+    transform: scale(1.2, 1.2)
+}
+
+/* <end div header> */
+
+
+
+
+
+.secc{
+    display: flex;
+}
+.secc .right , .secc .left{
+    width: 50%;
+}
+.secc .right img{
+    width: 100%;
+    padding: 10px;
+}
+.secc .right h3{
+    color: #141313;
+    font-size: 30px;    
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    top: 74px;
+    right: 5px;
+    left: -350px;
+    bottom: 5px;
+
+
+}
+    
+.secc .left{
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    top: 130px;
+    right: 5px;
+    left: 5px;
+    bottom: 5px;
+}
+.secc .left h3{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: cursive;
+    color: #222;
+    text-transform: capitalize;
+    padding: inherit;
+}
+.secc .left p{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    text-transform: capitalize;
+    padding: inherit;
+}
+
+/* <end div 2> */
+
+
+
+
+
+.see{
+    display: flex;
+}
+.see .left , .see .right{
+    width: 50%;
+}
+.see .left img{
+    width: 80%;
+    padding: 10px;
+    float: right;
+    position: relative;
+    top: -65px;
+    right: 5px;
+    left: -800px;
+    bottom: 5px;
+
+}
+.see{
+    background-color: rgb(37, 37, 88);
+    height: 250px;
+    border-radius: 0px 40px  0px  40px; 
+    position: relative;
+    top: 21px;
+    right: 5px;
+    bottom: 5px;
+    left: 5px;   
+}
+
+.see .right{
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    top: 4px;
+    right: 5px;
+    left: 550px;
+    bottom: 5px;
+}
+.see .right h3{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 254, 254);
+    text-transform: capitalize;
+    padding: inherit;
+}
+.see .right p{
+    font-size: 15px;
+    font-weight: 200;
+    font-family: monospace, Helvetica, sans-serif;
+    color: rgb(233, 227, 227);
+    text-transform: capitalize;
+    padding: inherit;
+}
+/* <end div 3> */
+
+
+
+
+
+
+.tee{
+    display: flex;
+}
+.tee .right , .secc .left{
+    width: 50%;
+}
+.tee .left img{
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    top: 210px;
+    right: 5px;
+    left: -210px;
+    bottom: 5px;
+}
+
+
+.tee .right{
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    top: 150px;
+    right: 5px;
+    left: -197px;
+    bottom: 5px;
+}
+.tee .right h3{
+    color: #141313;
+    font-size: 30px;    
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    top: 230px;
+    right: 5px;
+    left: -80px;
+    bottom: 5px;
+}
+    
+
+/* .tee .right h3{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: cursive;
+    color: #222;
+    text-transform: capitalize;
+    padding: inherit;
+} */
+.tee .right p{
+    font-size: 15px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #666;
+    text-transform: capitalize;
+    padding: inherit;
+    position: relative;
+    top: 218px;
+    right: 5px;
+    left: -1px;
+    bottom: 5px;
+}
+
+
+/* <end div4> */
+
+
+
+
+
+
+
+.for{
+    background-color: rgb(43, 39, 54);
+    height: 300px;
+    border-radius: 0px 40px  0px  40px; 
+    position: relative;
+    top: 240px;
+    right: 5px;
+    bottom: 5px;
+    left: 1px;   
+}
+.for .tx h3{
+    float: left;
+    font-size: 35px;
+    font-weight: 800;
+    margin: -3px;
+    padding: 30px 100px;
+    color: #f2f2f2;
+    font-family: monospace;
+    cursor: pointer;
+    position: relative;
+    top: 15px;
+    right: 5px;
+    bottom: 5px;
+    left: -26px;
+}
+.for .list{
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 0px;
+}
+.for .list .list1{
+    color: #f3f3f3;
+    font-size: 17px;
+    padding: 35px 15px;
+    font-weight: 600;
+    font-family: monospace;
+    letter-spacing: 2px;
+    cursor: pointer;
+    position: relative;
+    top: 25px;
+    right: 5px;
+    bottom: 5px;
+    left: -26px;
+}
+.for .list .list2{
+    color: #f3f3f3;
+    font-size: 17px;
+    padding: 35px 15px;
+    font-weight: 600;
+    font-family: monospace;
+    letter-spacing: 2px;
+    cursor: pointer;
+    position: relative;
+    top: 25px;
+    right: 5px;
+    bottom: 5px;
+    left: 180px;
+}
+.for .list .list3{
+    color: #f3f3f3;
+    font-size: 17px;
+    padding: 35px 15px;
+    font-weight: 600;
+    font-family: monospace;
+    letter-spacing: 2px;
+    cursor: pointer;
+    position: relative;
+    top: 25px;
+    right: 5px;
+    bottom: 5px;
+    left: 380px;
+}
+.for .list .list3 ul{
+    list-style: none;
+}
+.for .list .list2 ul{
+    list-style: none;
+}
+.for .list .list1 ul{
+    list-style: none;
+}
+.for .list .list1 .li1{
+    position: relative;
+    top: -30px;
+    left: 0px;
+}
+.for .list .list2 .li1{
+    position: relative;
+    top: -30px;
+    left: 0px;
+}
+.for .list .list3 .li1{
+    position: relative;
+    top: -30px;
+    left: 0px;
+}
+
+.for .list .list2 .li2{
+    position: relative;
+    top: 9px;
+    left: 0px;
+}
+.for .list .list2 .li3{
+    position: relative;
+    top: 18px;
+    left: 0px;
+}
+.for .list .list2 .li4{
+    position: relative;
+    top: 32px;
+    left: 0px;
+}
+
+
+
+
+.for .list .list3 .li2{
+    position: relative;
+    top: 9px;
+    left: 0px;
+}
+.for .list .list3 .li3{
+    position: relative;
+    top: 18px;
+    left: 0px;
+}
+
+
+
+
+.for .list .list1 .li2{
+    position: relative;
+    top: 13px;
+    left: 0px;
+}
+.for .list .list1 .li3{
+    position: relative;
+    top: 24px;
+    left: 0px;
+}
+.for .list .list1 .li4{
+    position: relative;
+    top: 40px;
+    left: 0px;
+}
+.for .list .list1 .li5{
+    position: relative;
+    top: 55px;
+    left: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
